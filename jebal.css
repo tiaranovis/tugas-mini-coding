@@ -1,0 +1,69 @@
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar{
+    display:flex;
+    border:1px solid black;
+    border-radius: 5px;
+}
+.nav-item{
+    padding:5px 1cm;
+    width:80px;
+    border-right:1px solid black; 
+    text-align: center;
+    cursor:pointer;
+}
+.nav-item:hover{
+    background:lightblue;
+    margin-top: -3px;
+}
+.nav-bar:last-child{
+    border-right:none;
+}
+.tired-flow{
+    height:2cm;
+    width:2cm;
+    border-radius: 50%;
+    align-items: center;
+}
+.tired-hero{
+    height: 1500px;
+    align-items: center;
+    background-size:contain;
+    
+}
+
+.wrapper{
+    display: flex;
+    margin: 1cm 1cm;
+
+
+}
+
+.headquarters-image-container{
+    display: flex;
+    align-items: center;
+    margin: 1cm 1cm;
+}
+.headquarters-image{
+    display:flex;
+    height:5cm;
+    width:5cm;
+    border-radius: 50%;
+ 
+}
+
+#submit{
+    padding: 0.5 cm;
+    width:150 px;
+    border: none;
+    cursor: pointer;
+}
+
+ 
+
+
+
